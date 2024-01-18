@@ -47,14 +47,44 @@ export default class Carousel extends Component {
     };
 
     return (
-      <div className="mb-10">
+      <div className=" md:dark:bg-slate-900 pb-16 -mt-28">
         <Slider {...settings}>
           <div className="px-3">
             <Image
-              className="w-[600px] rounded-xl  flex justify-center items-center"
-              src="/main/uiuxherolight.png"
-              width={500}
-              height={50}
+              className="w-[600px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              src="/main/amax.png"
+              width={1000}
+              height={100}
+              alt="image"
+            />
+          </div>
+
+          <div className="px-3">
+            <Image
+              className="w-[700px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              src="/main/amaxweb1.png"
+              width={700}
+              height={100}
+              alt="image"
+            />
+          </div>
+
+          <div className="px-3">
+            <Image
+              className="w-[700px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              src="/main/tab1.png"
+              width={700}
+              height={100}
+              alt="image"
+            />
+          </div>
+
+          <div className="px-3">
+            <Image
+              className="w-[700px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              src="/main/amaxweb2.png"
+              width={700}
+              height={100}
               alt="image"
             />
           </div>
@@ -62,39 +92,9 @@ export default class Carousel extends Component {
           <div className="px-3">
             <Image
               className="w-[700px] rounded-xl  flex justify-center items-center"
-              src="/main/uiuxservicelight.png"
+              src="/main/tab2.png"
               width={700}
-              height={50}
-              alt="image"
-            />
-          </div>
-
-          <div className="px-3">
-            <Image
-              className="w-[700px] rounded-xl  flex justify-center items-center"
-              src="/main/uiuxherodark.png"
-              width={700}
-              height={50}
-              alt="image"
-            />
-          </div>
-
-          <div className="px-3">
-            <Image
-              className="w-[700px] rounded-xl  flex justify-center items-center"
-              src="/main/uiuxexpdark.png"
-              width={700}
-              height={50}
-              alt="image"
-            />
-          </div>
-
-          <div className="px-3">
-            <Image
-              className="w-[700px] rounded-xl  flex justify-center items-center"
-              src="/main/uiuxservicedark.png"
-              width={700}
-              height={50}
+              height={100}
               alt="image"
             />
           </div>

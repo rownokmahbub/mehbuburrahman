@@ -35,11 +35,12 @@ export default function WebHero() {
   return (
     <div
       ref={ref}
-      className="relative main-light mt-10 pb-44 lg:mt-28 dark:main-dark md:border-b  dark:border-slate-500 px-4 lg:px-40"
+      className="relative main-light pt-10 pb-44 lg:pt-16 dark:main-dark md:border-b  dark:border-slate-500 px-4 lg:px-40"
       id="hero"
     >
       <div className="absolute w-56 top-0 h-56 bg-gradient-to-l from-yellow-100 via-purple-100 to-teal-100 dark:dark-bg blur-3xl rounded-full"></div>
-
+      <img className="absolute top-28 left-12 md:top-20 animate-bounce-slow md:left-56 w-10 md:w-20" src="/Leaf.svg" alt="leaf" />
+      <img className="absolute bottom-36 right-10 md:bottom-56 animate-bounce-slow md:right-56 w-10 md:w-20" src="/Team.svg" alt="leaf" />
       <div className="flex flex-col justify-center items-center">
         <motion.div
           initial="hidden"
@@ -54,17 +55,17 @@ export default function WebHero() {
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-slate-500 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
             </span>
-            <p className="text-sm ml-3 text-secondary capitalize font-medium">Welcome to my world</p>
+            <p className="text-sm ml-3 text-secondary dark:text-white capitalize font-medium">🙋🏼‍♂️ Hi - I'm Mehbubur Rahman</p>
           </div>
           <Image className="w-28 h-28 mt-5 object-cover rounded-full" src='/web/user.png' width={1200} height={1200} alt="users"/>
-          <h3 className="text-3xl text-secondary text-center dark:text-white leading-7 lg:text-5xl  capitalize font-bold my-3">
+          <h3 className="text-3xl text-secondary text-center dark:text-white  lg:text-5xl   font-bold my-3">
           Intuitive Design Speaks Louder Than a Thousand Words
           </h3>
           <div className="max-w-lg text-center text-sm mb-6 md:text-base w-full">
             Designing and developing visually stunning and technically
             proficient websites for clients worldwide.
           </div>
-          <Button color="primary" size="lg" variant="shadow">Hire Me Now</Button>
+          <Button color="primary" size="lg" variant="shadow">Hire Me</Button>
         
         </motion.div>
         
