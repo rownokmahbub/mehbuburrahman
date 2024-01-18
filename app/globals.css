@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .dark-bg{
+        @apply bg-gradient-to-r from-[#06000c]  via-[#0c0018]  to-[#06000c] 
+    }
+  }
+  @layer components {
+    .light-bg{
+        @apply bg-gradient-to-tl from-[#F4FFFB]/60 via-[#F4EEFB]/60 to-[#F4FFFB]/60
+    }
+  }
+  @layer components {
+    .main-light{
+        @apply bg-[conic-gradient(var(--tw-gradient-stops))] from-slate-50 via-purple-50 to-slate-50
+    }
+  }
+  @layer components {
+    .main-dark{
+        @apply bg-[conic-gradient(var(--tw-gradient-stops))] from-slate-900 via-purple-900 to-slate-900
+    }
+  }
+  @layer components {
+    .card-dark{
+        @apply bg-gradient-to-t from-[#0F1424] via-[#080F29] to-[#040827]
+    }
+  }
+  @layer components {
+    .card-light{
+        @apply bg-gradient-to-t from-[#f5f6fb] via-[#f0eaf9] to-[#f5f6fb]
+    }
+  }
+
+  .google-maps {
+    position: relative;
+    padding-bottom: 80%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 90% !important;
+}
+.image-wrap{
+  width: 100%;
+  height: 450px;
+  background-position: top;
+}
+.image-wrap img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 2s ease-in-out;
+}
+.image-wrap:hover img{
+  object-position: bottom center;
+  background-position: bottom;
+}
