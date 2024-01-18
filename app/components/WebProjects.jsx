@@ -49,7 +49,7 @@ export default function WebProjects() {
   ];
   return (
     <div
-      className=" relative bg-slate-200 dark:bg-slate-900/20 flex flex-col justify-center items-center lg:py-2 px-4 lg:px-10 "
+      className=" relative bg-slate-50 dark:bg-slate-900/10 flex flex-col justify-center items-center lg:py-2 px-4 lg:px-10 "
       id="service"
     >
     <Shapes/>
@@ -82,7 +82,7 @@ export default function WebProjects() {
               variants={variants}
               transition={{ duration: 1 }}
               key={service.length}
-              className="rounded-3xl group relative overflow-hidden"
+              className="rounded-2xl group relative overflow-hidden"
             >
             <div className="overflow-hidden  rounded-xl">
             <Image
@@ -110,8 +110,6 @@ export default function WebProjects() {
                   </div>
                 </div>
        
-               
-                
                  
                     <Link href={service.href} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex  p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
                       <GoArrowUpRight className="text-white text-2xl"/>

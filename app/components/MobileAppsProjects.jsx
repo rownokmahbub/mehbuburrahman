@@ -49,7 +49,7 @@ export default function MobileAppsProjects() {
   ];
   return (
     <div
-      className="relative bg-white dark:bg-slate-900/20 flex flex-col justify-center items-center px-4 lg:px-10 py-10"
+      className="relative bg-white dark:bg-slate-900/10 flex flex-col justify-center items-center px-4 lg:px-10 py-10"
       id="service"
     >
      <Shapes/>
@@ -75,7 +75,7 @@ export default function MobileAppsProjects() {
             Our Service Will Provide You Best Quality.
           </motion.h1>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 lg:gap-6 items-center py-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-6 items-center py-10">
           {services.map((service) => (
             <motion.div
               initial="hidden"
@@ -83,9 +83,9 @@ export default function MobileAppsProjects() {
               variants={variants}
               transition={{ duration: 1 }}
               key={service.length}
-              className="rounded-2xl h-96 transition duration-500 overflow-hidden"
+              className="rounded-2xl shadow-2xl shadow-slate-200 border-2 dark:shadow-slate-600 h-96 transition duration-500 overflow-hidden"
             >
-              <div className="text-3xl rounded-2xl overflow-hidden relative group flex  justify-center items-center">
+              <div className="text-3xl rounded-2xl overflow-hidden relative group flex  justify-center items-center ">
                 <Image
                   className="w-full h-96 object-cover"
                   src={service.icons}
