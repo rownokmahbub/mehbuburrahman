@@ -51,7 +51,7 @@ export default class Carousel extends Component {
         <Slider {...settings}>
           <div className="px-3">
             <Image
-              className="w-[600px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              className="w-[600px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
               src="/main/amax.png"
               width={1000}
               height={100}
@@ -61,7 +61,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
               src="/main/amaxweb1.png"
               width={700}
               height={100}
@@ -71,7 +71,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
               src="/main/tab1.png"
               width={700}
               height={100}
@@ -81,7 +81,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 rounded-xl  flex justify-center items-center"
+              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
               src="/main/amaxweb2.png"
               width={700}
               height={100}
@@ -91,7 +91,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] rounded-xl  flex justify-center items-center"
+              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
               src="/main/tab2.png"
               width={700}
               height={100}

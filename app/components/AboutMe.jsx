@@ -1,9 +1,11 @@
 import Image from "next/image";
+import Shapes from "./Shapes";
 
 export default function AboutMe() {
   return (
-    <div className="container mx-auto py-10 px-5 md:px-0">
-    <h1 className="text-xl md:text-5xl text-secondary dark:text-white font-semibold text-center my-10">About Me</h1>
+    <div className="container relative flex flex-col justify-center items-center mx-auto py-10 px-5 md:px-0">
+<Shapes/>
+    <h1 className="text-xl md:text-5xl text-secondary dark:text-white font-semibold text-center my-5">About Me</h1>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 items-center">
             <div className="md:col-span-2 rounded-2xl overflow-hidden flex flex-col gap-5 bg-white dark:bg-slate-800">
                    

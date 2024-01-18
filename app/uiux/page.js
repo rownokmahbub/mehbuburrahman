@@ -4,7 +4,7 @@ import Faq from "../components/uiux/Faq";
 
 import Hero2 from "../components/uiux/Hero2";
 
-import Service from "../components/uiux/Service";
+import Service from "../components/Service";
 import Tools from "../components/uiux/Tools";
 
 export default function page() {
