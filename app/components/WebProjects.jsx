@@ -27,22 +27,30 @@ export default function WebProjects() {
   }, [inView, controls]);
 
   const services = [
-    {
-      title: "Medical Appointment Booking",
-      subtitle: "Website Design",
-      icons: "/webmedical.png",
-      href:'/web/projects/projectdetails'
-    },
+   
     {
       title: "ExoNext Digital Agency",
       subtitle: "Web Design agency",
       icons: "/exonextlight.png",
       href:'/web/projects/projectdetails'
     },
+
     {
       title: "ZipCodemy Online Learning Platform",
       subtitle: "UIUX  Design,Brand Design",
       icons: "/zipcodemy.png",
+      href:'/web/projects/projectdetails'
+    },
+    {
+      title: "Producto Web Store",
+      subtitle: "Web Design agency",
+      icons: "/producto.png",
+      href:'/web/projects/projectdetails'
+    },
+    {
+      title: "Medical Appointment Booking",
+      subtitle: "Website Design",
+      icons: "/webmedical.png",
       href:'/web/projects/projectdetails'
     },
     

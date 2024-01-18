@@ -3,8 +3,8 @@ import Footer from "../Footer";
 import MainNav from "../MainNav";
 
 export const metadata = {
-  title: "RmFolio",
-  description: "Person-Centered Data-Driven Company Created by Rownok",
+  title: "Mehbubur's Portfolio",
+  description: "Great Awards winning Designer and Developer",
 };
 
 export default function RootLayout({ children }) {

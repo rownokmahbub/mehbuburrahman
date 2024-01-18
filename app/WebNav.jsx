@@ -60,7 +60,7 @@ export default function WebNav() {
     <div className="container mx-auto flex w-full justify-center items-center sticky top-0 lg:top-6 z-50">
       <Navbar
         maxWidth="full"
-        className=" px-5 lg:px-3 bg-white/80   md:border border-slate-200 dark:border-slate-600 md:rounded-full  dark:bg-slate-900/80"
+        className=" px-5 lg:px-3 bg-white/80   md:border border-slate-200 dark:border-slate-600 md:rounded-xl  dark:bg-slate-900/80"
         onMenuOpenChange={setIsMenuOpen}
       >
         <NavbarContent>

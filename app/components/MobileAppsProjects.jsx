@@ -16,8 +16,8 @@ export default function MobileAppsProjects() {
   const controls = useAnimation(); // Initialize controls using useAnimation hook
 
   const variants = {
-    hidden: { opacity: 0, x: 20 },
-    visible: { opacity: 1, x: 0 },
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0 },
   };
 
   useEffect(() => {
@@ -34,9 +34,9 @@ export default function MobileAppsProjects() {
       href:'/uiux/projects/projectdetails'
     },
     {
-      title: "Foodepi Mobile App UI Kits",
+      title: "Travel Mobile App UI Kits",
       subtitle: "App Design, Figma Design",
-      icons: "/foodepi.svg",
+      icons: "/travel.png",
       href:'/uiux/projects/projectdetails'
     },
     {
@@ -45,11 +45,18 @@ export default function MobileAppsProjects() {
       icons: "/bookingapp.svg",
       href:'/uiux/projects/projectdetails'
     },
+    {
+      title: "Foodepi Mobile App UI Kits",
+      subtitle: "App Design, Figma Design",
+      icons: "/foodepi.svg",
+      href:'/uiux/projects/projectdetails'
+    },
+  
     
   ];
   return (
     <div
-      className="relative bg-white dark:bg-slate-900/10 flex flex-col justify-center items-center px-4 lg:px-10 py-10"
+      className="relative  flex flex-col justify-center items-center px-4 lg:px-10 py-10"
       id="service"
     >
      <Shapes/>
