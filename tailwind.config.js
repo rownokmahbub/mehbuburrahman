@@ -10,6 +10,8 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        manrope: ['var(--font-inter)']},
       animation: {
         "bounce-slow": "bounce 4s linear infinite",
         "spin-slow": "spin 4s linear infinite",
@@ -49,7 +51,7 @@ module.exports = {
             secondary: {
               //... 50 to 900
               foreground: "#FFFFFF",
-              DEFAULT: "#09215E",
+              DEFAULT: "#1C4684",
             },
             // ... rest of the colors
           }, // light theme colors
