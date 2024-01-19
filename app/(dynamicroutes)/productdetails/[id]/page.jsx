@@ -1,49 +1,25 @@
 "use client";
 import "animate.css";
-import { useInView } from "react-intersection-observer";
-import React, { useEffect } from "react";
-import { motion, useAnimation } from "framer-motion";
-import { GoArrowUpRight } from "react-icons/go";
+
 import Image from "next/image";
 import data from "@/app/lib/data.json";
-import website from "@/app/lib/website.json";
+import { HiOutlineCubeTransparent } from "react-icons/hi";
 import MainNav from "@/app/MainNav";
 import Shapes from "@/app/components/Shapes";
+import Link from "next/link";
+import { Button } from "@nextui-org/react";
+import Footer from "@/app/Footer";
 export default function page({ params }) {
   const { id } = params;
   const filteredData = data.find((item) => item.id === id);
-  const filterWebsite = website.find((item) => item.id === id);
-  const [ref, inView] = useInView({
-    triggerOnce: true,
-    threshold: 0.3,
-  });
-
-  const controls = useAnimation(); // Initialize controls using useAnimation hook
-
-  const variants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-  };
-
-  useEffect(() => {
-    if (inView) {
-      controls.start("visible"); // Use controls from useAnimation hook
-    }
-  }, [inView, controls]);
 
   return (
-    <div className="relative bg-slate-50 dark:bg-slate-900/10  lg:py-2" ref={ref}>
+    <div className="relative bg-slate-50 dark:bg-slate-900/10  lg:py-2">
       <MainNav />
-      <motion.div
-        initial="hidden"
-        animate={controls}
-        variants={variants}
-        transition={{ duration: 1 }}
-        className=" group relative overflow-hidden"
-      >
-        <div className="overflow-hidden md:h-[92vh] rounded-2xl">
+      <div className=" group relative overflow-hidden">
+        <div className="overflow-hidden rounded-2xl">
           <Image
-            className="w-full  transition duration-500 "
+            className="w-full h-full transition duration-500 "
             src={filteredData?.product}
             width={1200}
             height={1000}
@@ -60,60 +36,24 @@ export default function page({ params }) {
             <p className="text-xs mt-5 lg:text-3xl ">{filteredData.subtitle}</p>
           </div>
         </div>
-      </motion.div>
-      <motion.div
-        initial="hidden"
-        animate={controls}
-        variants={variants}
-        transition={{ duration: 1 }}
-        className="container mx-auto relative flex flex-col justify-center items-start"
-      >
-      <Shapes/>
-        <h2 className="text-3xl font-bold px-4 lg:px-28 my-10 text-start">Main Goal</h2>
-        <h5 className="text-xl font-medium px-4 lg:px-28 my-10">{filteredData.description}</h5>
-      
-        
-      </motion.div>
-      <motion.div
-        initial="hidden"
-        animate={controls}
-        variants={variants}
-        transition={{ duration: 1 }}
-        className="container mx-auto  grid grid-cols-1 md:grid-cols-2 gap-10"
-      >
-         <Image
-            className=" max-h-96 transition-all duration-500 h-full px-4 object-cover rounded-2xl hover:rounded-[40px]"
-            src={filteredData?.ser1}
-            width={1200}
-            height={1000}
-          />
-            <Image
-            className=" max-h-96 transition-all duration-500 h-full px-4 object-cover rounded-2xl hover:rounded-[40px]"
-            src={filteredData?.ser2}
-            width={1200}
-            height={1000}
-          />
-             <Image
-            className=" max-h-96 transition-all duration-500 h-full px-4 object-cover rounded-2xl hover:rounded-[40px]"
-            src={filteredData?.ser3}
-            width={1200}
-            height={1000}
-          />
-             <Image
-            className=" max-h-96 transition-all duration-500 h-full px-4 object-cover rounded-2xl hover:rounded-[40px]"
-            src={filteredData?.ser4}
-            width={1200}
-            height={1000}
-          />
-             <Image
-            className=" max-h-96 transition-all duration-500 h-full px-4 object-cover rounded-2xl hover:rounded-[40px]"
-            src={filteredData?.ser5}
-            width={1200}
-            height={1000}
-          />
-        
-      </motion.div>
-  
+      </div>
+      <div className="container mx-auto relative flex flex-col px-4 lg:px-28 justify-center items-start">
+        <Shapes />
+        <h2 className="text-3xl font-bold  my-10 text-start">Main Goal</h2>
+        <Link href={filteredData.href}>
+          <Button color="primary" variant="shadow" size="lg">
+            Live Demo
+            <HiOutlineCubeTransparent />
+          </Button>
+        </Link>
+        <h5 className="text-xl font-medium  my-10">
+          {filteredData.description}
+        </h5>
+      </div>
+      {filteredData?.images?.map((item) => (
+        <Image className=" w-full" src={item} width={1200} height={1000} />
+      ))}
+      <Footer/>
     </div>
   );
 }

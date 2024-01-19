@@ -3,25 +3,49 @@
       "title": "ExoNext Digital Agency",
       "subtitle": "Web Design agency",
       "icons": "/exonextlight.png",
-      "id": "exonext"
+      "product": "/web/exonext.png",
+      "images":[
+        "/casestudy/16.png","/casestudy/18.png","/casestudy/20.png","/casestudy/21.png","/casestudy/22.png"
+      ],
+      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+      "id": "exonext",
+      "href": "/"
     },
     {
       "title": "ZipCodemy Online Learning Platform",
       "subtitle": "UIUX Design, Brand Design",
       "icons": "/zipcodemy.png",
-      "id": "zipcodemy"
+      "product": "/casestudy/impactify.png",
+      "images":[
+        "/casestudy/16.png","/casestudy/18.png","/casestudy/20.png","/casestudy/21.png","/casestudy/22.png"
+      ],
+      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+      "id": "zipcodemy",
+      "href": "/"
     },
     {
       "title": "Producto Web Store",
       "subtitle": "Web Design agency",
       "icons": "/producto.png",
-      "id": "producto"
+      "product": "/web/tab1.png",
+      "images":[
+        "/web/producto.svg","/web/producto2.svg"
+      ],
+      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+      "id": "producto",
+      "href": "/"
     },
     {
       "title": "Medical Appointment Booking",
       "subtitle": "Website Design",
       "icons": "/webmedical.png",
-      "id": "medicalapointment"
+      "product": "/web/medicalbooking.png",
+      "images":[
+        "/web/medicalbook1.svg","/web/medicalbook2.svg","/web/medicalbook3.svg"
+      ],
+      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+      "id": "medicalapointment",
+      "href": "/"
     }
   ]
   

@@ -80,7 +80,7 @@ export default function WebProjects() {
                     <h3 className="text-xl  lg:text-xl  font-semibold">
                       {service.title}
                     </h3>
-                    <Link href={`/productdetails/${service.id}`}  className="block lg:hidden">
+                    <Link href={`/websitedetails/${service.id}`}  className="block lg:hidden">
                       <GoArrowUpRight className="text-white text-2xl"/>
                     </Link>
                     </div>
@@ -92,7 +92,7 @@ export default function WebProjects() {
                 </div>
        
                  
-                    <Link href={`/productdetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex  p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
+                    <Link href={`/websitedetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex  p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
                       <GoArrowUpRight className="text-white text-2xl"/>
                     </Link>
                 
