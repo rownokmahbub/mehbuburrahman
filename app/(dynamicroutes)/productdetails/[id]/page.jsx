@@ -8,6 +8,7 @@ import Image from "next/image";
 import data from "@/app/lib/data.json";
 import website from "@/app/lib/website.json";
 import MainNav from "@/app/MainNav";
+import Shapes from "@/app/components/Shapes";
 export default function page({ params }) {
   const { id } = params;
   const filteredData = data.find((item) => item.id === id);
@@ -65,9 +66,10 @@ export default function page({ params }) {
         animate={controls}
         variants={variants}
         transition={{ duration: 1 }}
-        className="container mx-auto"
+        className="container mx-auto relative flex flex-col justify-center items-start"
       >
-        <h2 className="text-3xl font-bold px-4 lg:px-28 my-10">Main Goal</h2>
+      <Shapes/>
+        <h2 className="text-3xl font-bold px-4 lg:px-28 my-10 text-start">Main Goal</h2>
         <h5 className="text-xl font-medium px-4 lg:px-28 my-10">{filteredData.description}</h5>
       
         
