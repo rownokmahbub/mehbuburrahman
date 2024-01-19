@@ -51,7 +51,7 @@ export default class Carousel extends Component {
         <Slider {...settings}>
           <div className="px-3">
             <Image
-              className="w-[600px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
+              className="w-[600px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
               src="/main/amax.png"
               width={1000}
               height={100}
@@ -61,7 +61,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
+              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
               src="/main/amaxweb1.png"
               width={700}
               height={100}
@@ -71,7 +71,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
+              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
               src="/main/tab1.png"
               width={700}
               height={100}
@@ -81,8 +81,8 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
-              src="/main/amaxweb2.png"
+              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              src="/casestudy/bookingappmain.png"
               width={700}
               height={100}
               alt="image"
@@ -91,8 +91,26 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 lg:h-80 rounded-xl  flex justify-center items-center"
-              src="/main/tab2.png"
+              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              src="/web/exonext.png"
+              width={700}
+              height={100}
+              alt="image"
+            />
+          </div>
+          <div className="px-3">
+            <Image
+              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              src="/casestudy/impactify.png"
+              width={700}
+              height={100}
+              alt="image"
+            />
+          </div>
+          <div className="px-3">
+            <Image
+              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              src="/web/medicalbooking.png"
               width={700}
               height={100}
               alt="image"
