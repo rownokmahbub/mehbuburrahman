@@ -7,6 +7,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
 import Link from "next/link";
 import Shapes from "./Shapes";
+import website from '../lib/website.json'
 export default function WebProjects() {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -26,35 +27,7 @@ export default function WebProjects() {
     }
   }, [inView, controls]);
 
-  const services = [
-   
-    {
-      title: "ExoNext Digital Agency",
-      subtitle: "Web Design agency",
-      icons: "/exonextlight.png",
-      href:'/web/projects/projectdetails'
-    },
 
-    {
-      title: "ZipCodemy Online Learning Platform",
-      subtitle: "UIUX  Design,Brand Design",
-      icons: "/zipcodemy.png",
-      href:'/web/projects/projectdetails'
-    },
-    {
-      title: "Producto Web Store",
-      subtitle: "Web Design agency",
-      icons: "/producto.png",
-      href:'/web/projects/projectdetails'
-    },
-    {
-      title: "Medical Appointment Booking",
-      subtitle: "Website Design",
-      icons: "/webmedical.png",
-      href:'/web/projects/projectdetails'
-    },
-    
-  ];
   return (
     <div
       className=" relative bg-slate-50 dark:bg-slate-900/10 flex flex-col justify-center items-center lg:py-2 px-4 lg:px-10 "
@@ -83,7 +56,7 @@ export default function WebProjects() {
           </motion.h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-6 items-center py-10">
-          {services.map((service) => (
+          {website.map((service) => (
             <motion.div
               initial="hidden"
               animate={controls}
@@ -107,7 +80,7 @@ export default function WebProjects() {
                     <h3 className="text-xl  lg:text-xl  font-semibold">
                       {service.title}
                     </h3>
-                    <Link href={service.href} className="block lg:hidden">
+                    <Link href={`/productdetails/${service.id}`}  className="block lg:hidden">
                       <GoArrowUpRight className="text-white text-2xl"/>
                     </Link>
                     </div>
@@ -119,7 +92,7 @@ export default function WebProjects() {
                 </div>
        
                  
-                    <Link href={service.href} className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex  p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
+                    <Link href={`/productdetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex  p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
                       <GoArrowUpRight className="text-white text-2xl"/>
                     </Link>
                 

@@ -7,6 +7,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import Image from "next/image";
 import Link from "next/link";
 import Shapes from "./Shapes";
+import data from '../lib/data.json'
 export default function MobileAppsProjects() {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -26,34 +27,7 @@ export default function MobileAppsProjects() {
     }
   }, [inView, controls]);
 
-  const services = [
-    {
-      title: "Impactify Mobile App Case Study",
-      subtitle: "App Design, Product Design",
-      icons: "/impactify.png",
-      href:'/uiux/projects/projectdetails'
-    },
-    {
-      title: "Travel Mobile App UI Kits",
-      subtitle: "App Design, Figma Design",
-      icons: "/travel.png",
-      href:'/uiux/projects/projectdetails'
-    },
-    {
-      title: "Booking Mobile App UI",
-      subtitle: "Design, App Design",
-      icons: "/bookingapp.svg",
-      href:'/uiux/projects/projectdetails'
-    },
-    {
-      title: "Foodepi Mobile App UI Kits",
-      subtitle: "App Design, Figma Design",
-      icons: "/foodepi.svg",
-      href:'/uiux/projects/projectdetails'
-    },
-  
-    
-  ];
+
   return (
     <div
       className="relative  flex flex-col justify-center items-center px-4 lg:px-10 py-10"
@@ -83,7 +57,7 @@ export default function MobileAppsProjects() {
           </motion.h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-6 items-center py-10">
-          {services.map((service) => (
+          {data.map((service) => (
             <motion.div
               initial="hidden"
               animate={controls}
@@ -101,7 +75,7 @@ export default function MobileAppsProjects() {
                 />
                 <div className="absolute left-0 top-0 w-full lg:hidden lg:group-hover:block h-full bg-slate-900/60">
                   <div className="flex relative flex-col gap-2 justify-end rounded-2xl overflow-hidden items-start px-6 py-6 text-white w-full h-full">
-                    <Link href={service.href} className="absolute top-10 right-10 p-2 bg-slate-900/30 border rounded-full hover:border-none hover:bg-primary text-4xl animate__animated animate__slideInUp animate__delay-.3s cursor-pointer">
+                    <Link href={`/productdetails/${service.id}`} className="absolute top-10 right-10 p-2 bg-slate-900/30 border rounded-full hover:border-none hover:bg-primary text-4xl animate__animated animate__slideInUp animate__delay-.3s cursor-pointer">
                       <GoArrowUpRight />
                     </Link>
 

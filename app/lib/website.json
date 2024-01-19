@@ -1,0 +1,27 @@
+[
+    {
+      "title": "ExoNext Digital Agency",
+      "subtitle": "Web Design agency",
+      "icons": "/exonextlight.png",
+      "id": "exonext"
+    },
+    {
+      "title": "ZipCodemy Online Learning Platform",
+      "subtitle": "UIUX Design, Brand Design",
+      "icons": "/zipcodemy.png",
+      "id": "zipcodemy"
+    },
+    {
+      "title": "Producto Web Store",
+      "subtitle": "Web Design agency",
+      "icons": "/producto.png",
+      "id": "producto"
+    },
+    {
+      "title": "Medical Appointment Booking",
+      "subtitle": "Website Design",
+      "icons": "/webmedical.png",
+      "id": "medicalapointment"
+    }
+  ]
+  

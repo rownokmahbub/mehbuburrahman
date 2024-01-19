@@ -1,0 +1,34 @@
+[
+    {
+      "title": "Impactify Mobile App Case Study",
+      "subtitle": "App Design, Product Design",
+      "icons": "/impactify.png",
+      "product": "/casestudy/impactify.png",
+      "ser1":"/casestudy/16.png",
+      "ser2":"/casestudy/18.png",
+      "ser3":"/casestudy/20.png",
+      "ser4":"/casestudy/21.png",
+      "ser5":"/casestudy/22.png",
+      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+      "id": "impactify"
+    },
+    {
+      "title": "Travel Mobile App UI Kits",
+      "subtitle": "App Design, Figma Design",
+      "icons": "/travel.png",
+      "id": "travel"
+    },
+    {
+      "title": "Booking Mobile App UI",
+      "subtitle": "Design, App Design",
+      "icons": "/bookingapp.svg",
+      "id": "booking"
+    },
+    {
+      "title": "Foodepi Mobile App UI Kits",
+      "subtitle": "App Design, Figma Design",
+      "icons": "/foodepi.svg",
+      "id": "food"
+    }
+  ]
+  
