@@ -10,7 +10,7 @@ export default class Carousel extends Component {
   render() {
     const settings = {
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 4,
       slidesToScroll: 1,
       autoplay: true,
       speed: 4000,
@@ -23,7 +23,7 @@ export default class Carousel extends Component {
         {
           breakpoint: 1024,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             infinite: true,
           },
@@ -39,7 +39,7 @@ export default class Carousel extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
@@ -51,7 +51,7 @@ export default class Carousel extends Component {
         <Slider {...settings}>
           <div className="px-3">
             <Image
-              className="w-[600px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/web/zipcodemy.png"
               width={1000}
               height={100}
@@ -61,7 +61,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/main/amaxweb1.png"
               width={700}
               height={100}
@@ -71,7 +71,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/main/tab1.png"
               width={700}
               height={100}
@@ -81,7 +81,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/casestudy/bookingappmain.png"
               width={700}
               height={100}
@@ -91,7 +91,7 @@ export default class Carousel extends Component {
 
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/web/exonext.png"
               width={700}
               height={100}
@@ -100,7 +100,7 @@ export default class Carousel extends Component {
           </div>
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/casestudy/impactify.png"
               width={700}
               height={100}
@@ -109,7 +109,7 @@ export default class Carousel extends Component {
           </div>
           <div className="px-3">
             <Image
-              className="w-[700px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
+              className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/web/medicalbooking.png"
               width={700}
               height={100}
