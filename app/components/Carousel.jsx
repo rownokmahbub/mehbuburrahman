@@ -52,7 +52,7 @@ export default class Carousel extends Component {
           <div className="px-3">
             <Image
               className="w-[600px] h-36 md:h-72 xl:h-80 rounded-xl  flex justify-center items-center"
-              src="/main/amax.png"
+              src="/web/zipcodemy.png"
               width={1000}
               height={100}
               alt="image"
