@@ -58,11 +58,8 @@ export default function MobileAppsProjects() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-6 items-center py-10">
           {data.map((service) => (
-            <motion.div
-              initial="hidden"
-              animate={controls}
-              variants={variants}
-              transition={{ duration: 1 }}
+            <div
+             
               key={service.length}
               className="rounded-2xl shadow-2xl shadow-slate-200 border-2 dark:shadow-slate-600 h-96 transition duration-500 overflow-hidden"
             >
@@ -88,7 +85,7 @@ export default function MobileAppsProjects() {
                   </div>
                 </div>
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
       </div>
