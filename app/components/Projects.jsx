@@ -82,19 +82,8 @@ export default function Projects() {
                   </div>
          
                 </div>
-                <div className=" hidden md:flex relative rounded-2xl">
-                <Link href={`/productdetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex z-20 p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
-                      <GoArrowUpRight className="text-white text-2xl"/>
-                    </Link>
-                
-                  <Image
-                    className="w-full h-full group-hover:scale-110 transition duration-500 rounded-2xl"
-                    src={service.icons}
-                    width={1200}
-                    height={1000}
-                  />
-                </div>
-                <div className=" md:hidden relative rounded-2xl">
+            
+                <div className=" relative rounded-2xl">
                 <Link href={`/productdetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex z-20 p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
                       <GoArrowUpRight className="text-white text-2xl"/>
                     </Link>
