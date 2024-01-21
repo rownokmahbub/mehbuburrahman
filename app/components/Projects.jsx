@@ -62,11 +62,11 @@ export default function Projects() {
                 <div className="flex relative flex-col gap-2 justify-end md:justify-center rounded-2xl  items-start md:px-6 py-6 text-white md:text-slate-300 group-hover:text-white w-full h-full">
                
                 <div className="flex justify-between items-center w-full">
-                <h3 className="text-xl lg:text-7xl  md:uppercase font-semibold">
+                <h3 className="text-xl lg:text-7xl flex flex-wrap md:uppercase font-semibold">
                     {service.title}
                   </h3>
                 <Link href={`/productdetails/${service.id}`}  className="px-4 md:hidden py-2 flex justify-center items-center bg-primary rounded-full text-xs">
-                    View
+                    
                       <GoArrowUpRight className="text-white text-lg"/>
                     </Link>
                 </div>
