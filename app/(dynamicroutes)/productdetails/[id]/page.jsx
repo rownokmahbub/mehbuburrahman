@@ -1,9 +1,9 @@
 "use client";
 import "animate.css";
-
+import { FaBehance } from "react-icons/fa";
 import Image from "next/image";
 import data from "@/app/lib/data.json";
-import { HiOutlineCubeTransparent } from "react-icons/hi";
+import { FaDribbble } from "react-icons/fa";
 import MainNav from "@/app/MainNav";
 import Shapes from "@/app/components/Shapes";
 import Link from "next/link";
@@ -39,13 +39,22 @@ export default function page({ params }) {
       </div>
       <div className="container mx-auto relative flex flex-col px-4 lg:px-28 justify-center items-start">
         <Shapes />
-        <h2 className="text-3xl font-bold  my-10 text-start">Main Goal</h2>
+        <h2 className="text-xl md:text-3xl font-bold  my-10 text-start">Main Goal</h2>
+        <div className="flex items-center gap-6">
         <Link href={filteredData.href}>
-          <Button color="primary" variant="shadow" size="lg">
-            Live Demo
-            <HiOutlineCubeTransparent />
+          <Button color="primary" variant="shadow" size="md">
+           Live on 
+            <FaBehance className="text-xl"/>
           </Button>
         </Link>
+        <Link href={filteredData.href}>
+          <Button color="primary" variant="shadow" size="md">
+           View on 
+            <FaDribbble className="text-xl"/>
+          </Button>
+        </Link>
+        </div>
+      
         <h5 className="text-xl font-medium  my-10">
           {filteredData.description}
         </h5>

@@ -19,15 +19,30 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import Switch from "./components/Theme/Switch";
 import { MdOutlineKeyboardArrowDown } from "react-icons/md";
-export default function MainNav() {
-  const pathname = usePathname();
 
+export default function Nav() {
+  const pathname = usePathname();
+  const mainlinks = [
+    {
+      label: "Resume",
+      href: "/uiux/resume",
+    },
+    {
+      label: "Projects",
+      href: "/uiux/projects",
+    },
+   
+    {
+      label: "Contact",
+      href: "/uiux/contactus",
+    },
+  ];
   const navlinks = [
     {
       label: "UI/UX Designer",
       href: "/uiux",
     },
-   
+  
     {
       label: "Web Developer",
       href: "/web",
@@ -46,7 +61,7 @@ export default function MainNav() {
     <div className="container mx-auto flex w-full justify-center items-center sticky top-0 lg:top-6 z-50">
       <Navbar
         maxWidth="full"
-        className=" px-5 lg:px-3 bg-white/80   md:border border-slate-200 dark:border-slate-600 md:rounded-xl  dark:bg-slate-900/80"
+        className=" px-5 lg:px-3 bg-white/80   md:border border-slate-200 dark:border-slate-600 md:rounded-full  dark:bg-slate-900/80"
         onMenuOpenChange={setIsMenuOpen}
       >
         <NavbarContent>
@@ -106,22 +121,24 @@ export default function MainNav() {
             </Dropdown>
           </NavbarItem>
           <NavbarItem className="space-x-6">
-            <Button onClick={() => scrollToSection("demos")} color="foreground">
-              Demos
-            </Button>
+            {mainlinks.map((link, i) => {
+              return (
+                <Link
+                  key={i}
+                  className={
+                    pathname === `${link.href}`
+                      ? " bg-primary text-white  rounded-full px-3 py-2.5"
+                      : "text-sm hover:bg-primary px-2 py-2 hover:text-white rounded-full font-medium "
+                  }
+                  color="foreground"
+                  href={link.href}
+                >
+                  {link.label}
+                </Link>
+              );
+            })}
           </NavbarItem>
-          <NavbarItem className="space-x-6">
-            {" "}
-            <Button onClick={() => scrollToSection("features")} color="foreground">
-              Features
-            </Button>
-          </NavbarItem>
-          <NavbarItem className="space-x-6">
-            {" "}
-            <Button onClick={() => scrollToSection("faq")} color="foreground">
-              FAQ
-            </Button>
-          </NavbarItem>
+          <NavbarItem className="space-x-6"></NavbarItem>
         </NavbarContent>
         <NavbarContent justify="end">
           <div className="hidden md:flex justify-center items-center">
@@ -139,7 +156,7 @@ export default function MainNav() {
               <Dropdown className="flex flex-col">
                 <DropdownTrigger>
                   <Button variant="none">
-                    Portfolios
+                  Portfolio
                     <MdOutlineKeyboardArrowDown />
                   </Button>
                 </DropdownTrigger>
@@ -165,23 +182,24 @@ export default function MainNav() {
                 </DropdownMenu>
               </Dropdown>
             </NavbarItem>
-            <NavbarItem className="space-x-6">
-            <Button onClick={() => scrollToSection("demos")} color="foreground">
-              Demos
-            </Button>
-          </NavbarItem>
-          <NavbarItem className="space-x-6">
-            {" "}
-            <Button onClick={() => scrollToSection("features")} color="foreground">
-              Features
-            </Button>
-          </NavbarItem>
-          <NavbarItem className="space-x-6">
-            {" "}
-            <Button onClick={() => scrollToSection("faq")} color="foreground">
-              FAQ
-            </Button>
-          </NavbarItem>
+            <NavbarItem className=" flex flex-col justify-center items-center">
+              {mainlinks.map((link, i) => {
+                return (
+                  <Link
+                    key={i}
+                    className={
+                      pathname === `${link.href}`
+                        ? " bg-primary text-white  rounded-lg px-3 py-2.5"
+                        : "text-sm hover:bg-primary  px-2 py-2 my-2  hover:text-white rounded-lg font-medium "
+                    }
+                    color="foreground"
+                    href={link.href}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
+            </NavbarItem>
             <div className="flex justify-center items-center mt-5 md:hidden">
               <Switch />
             </div>

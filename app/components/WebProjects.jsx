@@ -41,7 +41,7 @@ export default function WebProjects() {
             animate={controls}
             variants={variants}
             transition={{ duration: 1 }}
-            className="text-4xl text-[#09215E] dark:text-white font-semibold"
+            className="text-xl md:text-4xl text-[#09215E] dark:text-white font-semibold"
           >
            Website Design Works
           </motion.h1>

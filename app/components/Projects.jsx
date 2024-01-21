@@ -37,7 +37,7 @@ export default function Projects() {
             animate={controls}
             variants={variants}
             transition={{ duration: 1 }}
-            className="text-4xl text-[#09215E] dark:text-white font-semibold"
+            className="text-xl md:text-4xl text-[#09215E] dark:text-white font-semibold"
           >
             Mobile Apps Project
           </motion.h1>
@@ -55,10 +55,10 @@ export default function Projects() {
           {data.map((service, index) => (
             <div
               key={index}
-              className="app-light dark:app-dark dark:hover:app-hover hover:app-hover transition-all px-4 relative group duration-700"
+              className="app-light dark:app-dark dark:hover:app-hover hover:app-hover transition-all px-4 relative group duration-500"
             >
            
-              <div className="overflow-hidden rounded-2xl transition-all group-hover:duration-1000 relative  flex flex-col md:flex-row items-center">
+              <div className="overflow-hidden rounded-2xl transition-all group-hover:duration-500 relative  flex flex-col md:flex-row items-center">
                 <div className="flex relative flex-col gap-2 justify-end md:justify-center rounded-2xl  items-start md:px-6 py-6 text-white md:text-slate-300 group-hover:text-white w-full h-full">
                
                 <div className="flex justify-between gap-2 items-start w-full">
