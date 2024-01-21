@@ -1,7 +1,9 @@
 [
     {
       "title": "Impactify Mobile App Case Study",
-      "subtitle": "App Design, Product Design",
+     
+ 
+      "subtitle":"test1,test2,test3,tesr4",
       "icons": "/impactify.png",
       "product": "/casestudy/impactify.png",
       "images":[
@@ -13,7 +15,7 @@
     },
     {
       "title": "Travel Mobile App UI Kits",
-      "subtitle": "App Design, Figma Design",
+      "subtitle":"test1,test2,test3,tesr4",
       "icons": "/casestudy/travello.svg",
       "product": "/casestudy/travelagency.png",
       
@@ -26,7 +28,7 @@
     },
     {
       "title": "Booking Mobile App UI",
-      "subtitle": "Design, App Design",
+      "subtitle":"test1,test2,test3,tesr4",
       "icons": "/bookingapp.svg",
       "product": "/casestudy/bookingappmain.png",
       "images":[
@@ -39,7 +41,7 @@
     },
     {
       "title": "Foodepi Mobile App UI Kits",
-      "subtitle": "App Design, Figma Design",
+      "subtitle":"test1,test2,test3,tesr4",
       "icons": "/foodepi.svg",
       "product": "/casestudy/foodmain.png",
       "images":[

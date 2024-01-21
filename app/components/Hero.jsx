@@ -23,28 +23,27 @@ export default function WebHero() {
 
   useEffect(() => {
     if (inView) {
-      controls.start("visible"); // Use controls from useAnimation hook
+      controls.start("visible"); 
     }
   }, [inView, controls]);
 
   return (
     <div
       ref={ref}
-      className="relative main-light pt-10 pb-44  dark:main-dark md:border-b  dark:border-slate-500 px-4 lg:px-40"
+      className="relative  md:h-screen pt-6  mb-36 md:mb-0"
       id="hero"
     >
-      <div className="absolute w-56 top-0 h-56 bg-gradient-to-l from-yellow-100 via-purple-100 to-teal-100 dark:dark-bg blur-3xl rounded-full"></div>
-
-      <div className="flex flex-col justify-center items-center w-full">
+ 
+     
         <motion.div
           initial="hidden"
           animate={controls}
           variants={variants}
           transition={{ duration: 1 }}
-          className="flex z-20 flex-col gap-2 items-center  w-full"
+          className="flex z-20 flex-col backdrop-blur-3xl pb-12 gap-2 items-center  md:h-screen"
           data-aos="fade-right"
         >
-          <div className="flex relative justify-center items-center gap-3 bg-[#0066FF]/5 dark:bg-slate-800 px-6 py-2 rounded-full">
+          <div className="flex relative justify-center items-center gap-3 bg-[#0066FF]/5 dark:bg-slate-800 px-6 py-2 mt-10 rounded-full">
             <span class="hidden absolute lg:left-4 lg:top-3 lg:flex h-3 w-3">
               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-slate-500 opacity-75"></span>
               <span class="relative inline-flex rounded-full h-3 w-3 bg-primary"></span>
@@ -81,7 +80,7 @@ export default function WebHero() {
               Speaks
             </div>
             <div className="flex gap-2">
-              Louder Than a
+              Louder Than
               <div className="overflow-hidden ">
               <Image
                 className="w-10 md:w-20 rounded-full  hover:scale-150 hover:rounded-lg transition duration-1000"
@@ -91,7 +90,7 @@ export default function WebHero() {
                 alt="image"
               />
           </div>
-              Thousand
+             a Thousand
             </div>
             Words
           </div>
@@ -103,7 +102,7 @@ export default function WebHero() {
             Hire Me
           </Button>
         </motion.div>
-      </div>
+     
     </div>
   );
 }

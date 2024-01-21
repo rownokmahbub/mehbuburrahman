@@ -5,6 +5,7 @@ import AboutMe from "../components/AboutMe";
 import Service from "../components/MobileAppsProjects";
 import MobileAppsProjects from "../components/MobileAppsProjects";
 import WebProjects from "../components/WebProjects";
+import Projects from "../components/Projects";
 
 export default function page() {
   return (
@@ -12,6 +13,7 @@ export default function page() {
       <Hero />
       <Carousel />
       <AboutMe />
+      <Projects/>
       <MobileAppsProjects/>
       <WebProjects/>
       <MainFaq />

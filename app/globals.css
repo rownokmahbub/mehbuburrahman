@@ -23,6 +23,21 @@
     }
   }
   @layer components {
+    .app-light{
+        @apply bg-gradient-to-r from-[#2b2634]  via-[#424b74]  to-[#2b2634]
+    }
+  }
+  @layer components {
+    .app-dark{
+        @apply bg-gradient-to-r from-[#241f2d]  via-[#2a364e]  to-[#241f2d]
+    }
+  }
+  @layer components {
+    .app-hover{
+        @apply bg-gradient-to-r from-[#170636]  via-[#53034A]  to-[#170636]
+    }
+  }
+  @layer components {
     .card-dark{
         @apply bg-gradient-to-t from-[#0F1424] via-[#080F29] to-[#040827]
     }
