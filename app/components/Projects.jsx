@@ -73,7 +73,7 @@ export default function Projects() {
                 
                   <div className="flex items-center  flex-wrap  w-full transition-all duration-1000 md:mt-5 gap-2 md:gap-5">
                     {service.subtitle.split(",").map((data) => (
-                      <p className="text-xs bg-white/20 backdrop-blur-xl rounded-full px-4 py-2 md:px-4 md:py-3">
+                      <p className="text-xs bg-white/20  rounded-full px-4 py-2 md:px-4 md:py-3">
                         {data}
                      
                       </p>
@@ -83,13 +83,13 @@ export default function Projects() {
          
                 </div>
             
-                <div className=" relative rounded-2xl">
-                <Link href={`/productdetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex z-20 p-12 bg-black/20 backdrop-blur-md dark:bg-slate-800/30 rounded-full  text-2xl  cursor-pointer">
+                <div className=" relative group py-5">
+                <Link href={`/productdetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex z-20 p-12 bg-black/20  dark:bg-slate-800/30 backdrop-blur-lg rounded-full  text-2xl  cursor-pointer">
                       <GoArrowUpRight className="text-white text-2xl"/>
                     </Link>
                 
                   <Image
-                    className="w-full h-full group-hover:scale-110 transition duration-500 rounded-2xl"
+                    className="h-full max-w-sm group-hover:scale-90 transition duration-500"
                     src={service.icons}
                     width={1200}
                     height={1000}
