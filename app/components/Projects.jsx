@@ -61,7 +61,7 @@ export default function Projects() {
               <div className="overflow-hidden rounded-2xl transition-all group-hover:duration-1000 relative  flex flex-col md:flex-row md:h-72 ">
                 <div className="flex relative flex-col gap-2 justify-end md:justify-center rounded-2xl  items-start md:px-6 py-6 text-white md:text-slate-300 group-hover:text-white w-full h-full">
                
-                <div className="flex justify-between items-center w-full">
+                <div className="flex justify-between gap-2 items-start w-full">
                 <h3 className="text-xl lg:text-7xl flex flex-wrap md:uppercase font-semibold">
                     {service.title}
                   </h3>
