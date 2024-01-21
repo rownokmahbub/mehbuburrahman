@@ -58,7 +58,7 @@ export default function Projects() {
               className="app-light dark:app-dark dark:hover:app-hover hover:app-hover transition-all px-4 relative group duration-700"
             >
            
-              <div className="overflow-hidden rounded-2xl transition-all group-hover:duration-1000 relative  flex flex-col md:flex-row md:h-72 ">
+              <div className="overflow-hidden rounded-2xl transition-all group-hover:duration-1000 relative  flex flex-col md:flex-row items-center">
                 <div className="flex relative flex-col gap-2 justify-end md:justify-center rounded-2xl  items-start md:px-6 py-6 text-white md:text-slate-300 group-hover:text-white w-full h-full">
                
                 <div className="flex justify-between gap-2 items-start w-full">
@@ -83,16 +83,16 @@ export default function Projects() {
          
                 </div>
             
-                <div className=" relative group py-5">
+                <div className=" relative group rounded-2xl py-5">
                 <Link href={`/productdetails/${service.id}`}  className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hidden lg:group-hover:flex z-20 p-12 bg-black/20  dark:bg-slate-800/30 backdrop-blur-lg rounded-full  text-2xl  cursor-pointer">
                       <GoArrowUpRight className="text-white text-2xl"/>
                     </Link>
                 
                   <Image
-                    className="h-full max-w-sm group-hover:scale-90 transition duration-500"
+                    className="min-h-full max-w-2xl w-full rounded-xl group-hover:scale-90 transition duration-500"
                     src={service.icons}
                     width={1200}
-                    height={1000}
+                    height={1200}
                   />
                 </div>
               </div>
