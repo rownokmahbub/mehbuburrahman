@@ -32,7 +32,7 @@
       "icons": "/bookingapp.svg",
       "product": "/casestudy/bookingappmain.png",
       "images":[
-        "/casestudy/allbooking1.svg","/casestudy/bookingtimeline.svg","/casestudy/allbooking2.svg"
+        "/casestudy/allbooking1.png","/casestudy/bookingtimeline.svg","/casestudy/allbooking2.png"
       ],
       
       "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
@@ -45,7 +45,7 @@
       "icons": "/foodepi.png",
       "product": "/casestudy/foodmain.png",
       "images":[
-        "/casestudy/foodhome.svg","/casestudy/foodabout.svg","/casestudy/allfood1.svg","/casestudy/allfood2.svg"
+        "/casestudy/foodhome.svg","/casestudy/foodabout.svg","/casestudy/allfood1.png","/casestudy/allfood2.png"
       ],
       "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
       "id": "food",
