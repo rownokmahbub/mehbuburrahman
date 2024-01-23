@@ -69,8 +69,7 @@ export default function WebProjects() {
             <Image
                   className="w-full h-[350px] max-h-96 group-hover:scale-110 transition duration-500 rounded-lg"
                   src={service.icons}
-                  width={1200}
-                  height={1000}
+                  loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="img"
                 />
             </div>
             <div className="absolute left-0 top-0 w-full block h-full bg-gradient-to-t from-slate-900/80 via-slate-900/10 to-slate-900/0">

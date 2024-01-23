@@ -57,8 +57,7 @@ export default function WebHero() {
             <Image
               className="w-28 h-28 mt-5 object-cover rounded-full block group-hover:hidden"
               src="/web/user.png"
-              width={1200}
-              height={1200}
+              loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000}
               alt="users"
             />
         
@@ -71,8 +70,7 @@ export default function WebHero() {
               <Image
                 className="w-10 md:w-20 rounded-full  hover:scale-150 hover:rounded-full transition duration-1000"
                 src="/main/tab1.png"
-                width={700}
-                height={100}
+                loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000}
                 alt="image"
               />
           </div>
@@ -85,8 +83,7 @@ export default function WebHero() {
               <Image
                 className="w-10 md:w-20 rounded-full  hover:scale-150 hover:rounded-lg transition duration-1000"
                 src="/casestudy/bookingappmain.png"
-                width={700}
-                height={100}
+              loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000}
                 alt="image"
               />
           </div>

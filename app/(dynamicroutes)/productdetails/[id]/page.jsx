@@ -60,7 +60,7 @@ export default function page({ params }) {
         </h5>
       </div>
       {filteredData?.images?.map((item) => (
-        <Image className=" w-full" src={item}  quality={100} width={1000} height={1000} />
+        <Image className=" w-full" src={item}   loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="ki" />
       ))}
       <Footer/>
     </div>

@@ -55,7 +55,9 @@ export default class Carousel extends Component {
               src="/web/zipcodemy.png"
               width={1000}
               height={100}
-              alt="image"
+              sizes="(max-width: 768px)
+100vw, (max-width: 1200px)
+50vw, 33vw" alt="image"
             />
           </div>
 
@@ -63,9 +65,7 @@ export default class Carousel extends Component {
             <Image
               className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/main/amaxweb1.png"
-              width={700}
-              height={100}
-              alt="image"
+                 loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="image"
             />
           </div>
 
@@ -73,9 +73,7 @@ export default class Carousel extends Component {
             <Image
               className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/main/tab1.png"
-              width={700}
-              height={100}
-              alt="image"
+                 loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="image"
             />
           </div>
 
@@ -83,9 +81,7 @@ export default class Carousel extends Component {
             <Image
               className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/casestudy/bookingappmain.png"
-              width={700}
-              height={100}
-              alt="image"
+                 loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="image"
             />
           </div>
 
@@ -93,27 +89,21 @@ export default class Carousel extends Component {
             <Image
               className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/web/exonext.png"
-              width={700}
-              height={100}
-              alt="image"
+                 loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="image"
             />
           </div>
           <div className="px-3">
             <Image
               className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/casestudy/impactify.png"
-              width={700}
-              height={100}
-              alt="image"
+                 loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="image"
             />
           </div>
           <div className="px-3">
             <Image
               className="w-full md:w-[600px] h-36 md:h-72  rounded-xl  flex justify-center items-center"
               src="/web/medicalbooking.png"
-              width={700}
-              height={100}
-              alt="image"
+                 loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="image"
             />
           </div>
         </Slider>

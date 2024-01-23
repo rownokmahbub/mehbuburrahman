@@ -61,7 +61,7 @@ export default function page({ params }) {
       </div>
       <div className="px-5 pb-5">
       {filteredData?.images?.map((item) => (
-        <Image className=" w-full py-5" src={item} width={1200} height={1000} />
+        <Image className=" w-full py-5" src={item}   loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="iji" />
       ))}
       </div>
     

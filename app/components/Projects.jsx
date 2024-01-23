@@ -91,8 +91,7 @@ export default function Projects() {
                   <Image
                     className="min-h-full max-w-2xl w-full rounded-xl group-hover:scale-90 transition duration-500"
                     src={service.icons}
-                    width={1200}
-                    height={1200}
+                    loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="img"
                   />
                 </div>
               </div>
