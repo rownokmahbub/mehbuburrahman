@@ -7,7 +7,7 @@
       "icons": "/impactify.png",
       "product": "/casestudy/impactify.png",
       "images":[
-        "/casestudy/designprocess.svg","/casestudy/18.svg","/casestudy/screendetails.svg","/casestudy/allscreen.svg","/casestudy/allscreen2.svg"
+        "/casestudy/designprocess.svg","/casestudy/18.svg","/casestudy/screendetails.png","/casestudy/allscreen1.png","/casestudy/allscreen2.png"
       ],
       "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
       "id": "impactify",
@@ -16,7 +16,7 @@
     {
       "title": "Travel Mobile App UI Kits",
       "subtitle":"test1,test2,test3,tesr4",
-      "icons": "/casestudy/travello.svg",
+      "icons": "/travel.png",
       "product": "/casestudy/travelagency.png",
       
       "images":[
@@ -42,7 +42,7 @@
     {
       "title": "Foodepi Mobile App UI Kits",
       "subtitle":"test1,test2,test3,tesr4",
-      "icons": "/foodepi.svg",
+      "icons": "/foodepi.png",
       "product": "/casestudy/foodmain.png",
       "images":[
         "/casestudy/foodhome.svg","/casestudy/foodabout.svg","/casestudy/allfood1.svg","/casestudy/allfood2.svg"
