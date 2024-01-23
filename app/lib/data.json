@@ -20,7 +20,7 @@
       "product": "/casestudy/travelagency.png",
       
       "images":[
-        "/casestudy/alltravel.svg","/casestudy/workprocess.svg","/casestudy/travello.svg"
+        "/casestudy/alltravel.svg","/casestudy/workprocess.svg","/travel.png"
       ],
       "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
       "id": "travel",
