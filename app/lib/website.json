@@ -1,27 +1,42 @@
 [
     {
-      "title": "ExoNext Digital Agency",
-      "subtitle": "Web Design agency",
-      "icons": "/exonextlight.png",
+      "title": "NFT Dashboard UIUX Design",
+      "subtitle": "NFC website, Dashboard",
+      "icons": "/casestudy/dashboardnft.png",
       "product": "/web/exonext.png",
       "images":[
-        "/casestudy/16.png","/casestudy/18.png","/casestudy/20.png","/casestudy/21.png","/casestudy/22.png"
+        "/casestudy/nft1.png","/casestudy/nft2.png","/casestudy/nft3.png","/casestudy/nft4.png"
       ],
-      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+      "description": "Take control of your NFT marketplace with our feature-rich NFT Dashboard admin site.  This intuitive platform equips you with the tools to manage every aspect of your NFT ecosystem.Visualize key metrics through comprehensive dashboards, allowing you to track user activity, NFT listings, and overall marketplace health.  Effortlessly manage user accounts, verify creators, and curate NFT collections.  The robust admin panel empowers you to set platform fees, define promotional campaigns, and ensure a secure and thriving NFT marketplace for your users.  This comprehensive solution provides the control and insight you need to navigate the ever-evolving world of NFTs. ",
       "id": "exonext",
-      "href": "/"
+      "href": "/",
+      "figma": "https://www.figma.com/file/7VkcnSsIMwt3FG9wVdntIb/Dashboard?type=design&node-id=7%3A2&mode=design&t=gI1vtVZCANaq0KPm-1"
     },
     {
-      "title": "ZipCodemy Online Learning Platform",
+      "title": "TraFly Travel Agency Website",
       "subtitle": "UIUX Design, Brand Design",
-      "icons": "/zipcodemy.png",
+      "icons": "/casestudy/travellers.png",
       "product": "/web/zipcodemy.png",
       "images":[
-        "/casestudy/16.png","/casestudy/18.png","/casestudy/20.png","/casestudy/21.png","/casestudy/22.png"
+        "/casestudy/travel1.png","/casestudy/travel2.png","/casestudy/travel3.png","/casestudy/travel4.png"
       ],
       "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
       "id": "zipcodemy",
-      "href": "/"
+      "href": "/",
+      "figma": "/"
+    },
+    {
+      "title": "Flight Booking Dashboard UIUX Design",
+      "subtitle": "NFC website, Dashboard",
+      "icons": "/casestudy/dashboardota.png",
+      "product": "/web/exonext.png",
+      "images":[
+        "/casestudy/ota1.png","/casestudy/ota2.png","/casestudy/ota3.png","/casestudy/ota4.png"
+      ],
+      "description": "Take control of your flight booking operation with this comprehensive admin site!  Designed for efficiency and clarity, this web interface provides you with the tools to manage every aspect of your flight booking business.Visualize key metrics and booking trends through intuitive dashboards, allowing you to make data-driven decisions for optimal performance.  Effortlessly manage flight inventory, pricing, and promotions to ensure you're offering the best deals to your customers.  The user-friendly interface streamlines airline and customer management, making it easy to add new partners, update profiles, and handle inquiries.  Additionally, the robust reporting functionalities provide detailed insights into bookings, cancellations, and revenue, empowering you to optimize your business strategy and maximize profitability.",
+      "id": "flight",
+      "href": "/",
+      "figma": "https://www.figma.com/file/7VkcnSsIMwt3FG9wVdntIb/Dashboard?type=design&node-id=7%3A2&mode=design&t=gI1vtVZCANaq0KPm-1"
     },
     {
       "title": "Producto Web Store",
@@ -33,7 +48,8 @@
       ],
       "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
       "id": "producto",
-      "href": "/"
+      "href": "/",
+      "figma": "/"
     },
     {
       "title": "Medical Appointment Booking",
@@ -45,7 +61,8 @@
       ],
       "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
       "id": "medicalapointment",
-      "href": "/"
+      "href": "/",
+      "figma": "/"
     }
   ]
   

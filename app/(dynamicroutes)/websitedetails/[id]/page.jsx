@@ -4,7 +4,7 @@ import { FaDribbble } from "react-icons/fa";
 import { FaBehance } from "react-icons/fa";
 import Image from "next/image";
 import website from "@/app/lib/website.json";
-import { HiOutlineCubeTransparent } from "react-icons/hi";
+import { CgFigma } from "react-icons/cg";
 import MainNav from "@/app/MainNav";
 import Shapes from "@/app/components/Shapes";
 import Link from "next/link";
@@ -18,7 +18,7 @@ export default function page({ params }) {
     <div className="relative bg-slate-50 dark:bg-slate-900/10  lg:py-2">
       <MainNav />
       <div className=" group relative overflow-hidden container mt-10 mx-auto">
-        <div className="overflow-hidden rounded-2xl h-full max-h-[700px]">
+        <div className="overflow-hidden rounded-2xl h-full max-h-[80vh]">
           <Image
             className="w-full  transition duration-500 "
             src={filteredData?.product}
@@ -38,31 +38,33 @@ export default function page({ params }) {
           </div>
         </div>
       </div>
-      <div className="container mx-auto relative flex flex-col px-4 lg:px-28 justify-center items-start">
+      <div className="container mx-auto relative flex flex-col px-4  justify-center items-start">
         <Shapes />
-        <h2 className="text-xl md:text-3xl font-bold  my-10 text-start">Main Goal</h2>
-        <div className="flex items-center gap-6">
-        <Link href={filteredData.href}>
-          <Button color="primary" variant="shadow" size="md">
-           Live on 
-            <FaBehance className="text-xl"/>
-          </Button>
-        </Link>
-        <Link href={filteredData.href}>
-          <Button color="primary" variant="shadow" size="md">
-           View on 
-            <FaDribbble className="text-xl"/>
-          </Button>
-        </Link>
+        <div className="flex items-center gap-6 mt-5">
+          <Link href={filteredData.href}>
+            <Button color="primary" variant="shadow" size="md">
+              Live on
+              <FaBehance className="text-xl" />
+            </Button>
+          </Link>
+          <Link href={filteredData.figma}>
+            <Button color="primary" variant="shadow" size="md">
+              View file
+              <CgFigma className="text-xl" />
+            </Button>
+          </Link>
         </div>
-        <h5 className="text-xl font-medium  my-10">
-          {filteredData.description}
-        </h5>
+
+        <h2 className="text-xl md:text-3xl font-bold  my-10 text-start">
+          Main Goal
+        </h2>
+
+        <h5 className="text-lg lg:text-xl leading-loose mb-10">{filteredData.description}</h5>
       </div>
-      <div className="grid grid-cols-1 xl:grid-cols-2  gap-6 mx-auto container my-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2  gap-6 lg:gap-12 mx-auto container my-10">
         {filteredData?.images?.map((item, i) => (
           <Image
-            className=" w-full h-[700px] max-h-[500px] object-cover rounded-2xl"
+            className=" w-full h-full px-4 lg:px-0 shadow-2xl object-cover max-h-[600px] rounded-2xl overflow-hidden"
             src={item}
             loading="lazy"
             objectFit="cover"
@@ -74,8 +76,8 @@ export default function page({ params }) {
           />
         ))}
       </div>
-    
-      <Footer/>
+
+      <Footer />
     </div>
   );
 }

@@ -17,7 +17,7 @@ export default function page({ params }) {
     <div className="relative bg-slate-50 dark:bg-slate-900/10  lg:py-2">
       <MainNav />
       <div className=" group relative overflow-hidden container mt-10 mx-auto">
-        <div className="overflow-hidden rounded-2xl h-full max-h-[700px]">
+        <div className="overflow-hidden rounded-2xl h-full max-h-[80vh]">
           <Image
             className="w-full  transition duration-500 "
             src={filteredData?.product}
@@ -58,12 +58,12 @@ export default function page({ params }) {
           Main Goal
         </h2>
 
-        <h5 className="text-xl leading-loose">{filteredData.description}</h5>
+        <h5 className="text-lg lg:text-xl leading-loose mb-10">{filteredData.description}</h5>
       </div>
-      <div className="grid grid-cols-1 xl:grid-cols-2  gap-6 mx-auto container my-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2  gap-6 mx-auto container my-10">
         {filteredData?.images?.map((item, i) => (
           <Image
-            className=" w-full h-[700px] max-h-[500px] object-cover rounded-2xl"
+            className=" w-full lg:h-[700px] px-4 lg:px-0 max-h-[500px] drop-shadow-2xl object-cover rounded-2xl"
             src={item}
             loading="lazy"
             objectFit="cover"

@@ -19,6 +19,23 @@
     "figma": "https://www.figma.com/file/aR6nMAWBkm29FeiHXmsTr8/Impactify?type=design&node-id=168%3A193&mode=design&t=O8evSEaH7mrtiZCE-1"
   },
   {
+    "title": "TriveCart Ecommerce Mobile App",
+    "subtitle": "Mobile App,UI Design,Client Project,Booking App",
+    "icons": "/casestudy/thrivecart.png",
+    "product": "/casestudy/bookingappmain.png",
+    "images": [
+      "/casestudy/allbooking1.png",
+      "/casestudy/bookingtimeline.svg",
+      "/casestudy/allbooking2.png",
+      "/casestudy/bookingfigma.png"
+    ],
+
+    "description": "I worked on a project for a US client who needed a one-stop-shop booking app. This app would allow users to seamlessly book hotels, medical appointments, salon visits, and beauty parlor treatments, all within a single platform. I designed the app with a user-friendly interface (UX) to prioritize ease of use, and an aesthetically pleasing design (UI) to make the booking process enjoyable. To ensure smooth operations, the app also features a robust admin dashboard that allows for user management, booking oversight, and control over other app functionalities. This all-in-one solution offers convenience to users and empowers businesses to effectively manage their appointments and bookings.",
+    "id": "booking",
+    "href": "/",
+    "figma": "https://www.figma.com/file/Adv1j9EfxXmF14CzoZxx36/All-Booking--Mobile-App?type=design&node-id=18%3A1380&mode=design&t=JxvN819aPvPlmHcR-1"
+  },
+  {
     "title": "Booking Mobile App UI",
     "subtitle": "Mobile App,UI Design,Client Project,Booking App",
     "icons": "/bookingapp.svg",
