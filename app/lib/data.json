@@ -1,55 +1,71 @@
 [
-    {
-      "title": "Impactify Mobile App Case Study",
-     
- 
-      "subtitle":"test1,test2,test3,tesr4",
-      "icons": "/impactify.png",
-      "product": "/casestudy/impactify.png",
-      "images":[
-        "/casestudy/designprocess.svg","/casestudy/18.svg","/casestudy/screendetails.png","/casestudy/allscreen1.png","/casestudy/allscreen2.png"
-      ],
-      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
-      "id": "impactify",
-      "href": "https://www.behance.net/gallery/188568755/Impactify-Social-Mobile-App-UIUX-Case-Study"
-    },
-    {
-      "title": "Travel Mobile App UI Kits",
-      "subtitle":"test1,test2,test3,tesr4",
-      "icons": "/travel.png",
-      "product": "/casestudy/travelagency.png",
-      
-      "images":[
-        "/casestudy/alltravel.svg","/casestudy/workprocess.svg","/travel.png"
-      ],
-      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
-      "id": "travel",
-      "href": "/"
-    },
-    {
-      "title": "Booking Mobile App UI",
-      "subtitle":"test1,test2,test3,tesr4",
-      "icons": "/bookingapp.svg",
-      "product": "/casestudy/bookingappmain.png",
-      "images":[
-        "/casestudy/allbooking1.png","/casestudy/bookingtimeline.svg","/casestudy/allbooking2.png"
-      ],
-      
-      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
-      "id": "booking",
-      "href": "/"
-    },
-    {
-      "title": "Foodepi Mobile App UI Kits",
-      "subtitle":"test1,test2,test3,tesr4",
-      "icons": "/foodepi.png",
-      "product": "/casestudy/foodmain.png",
-      "images":[
-        "/casestudy/foodhome.svg","/casestudy/foodabout.svg","/casestudy/allfood1.png","/casestudy/allfood2.png"
-      ],
-      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
-      "id": "food",
-      "href": "/"
-    }
-  ]
-  
+  {
+    "title": "Impactify Mobile App Case Study",
+
+    "subtitle": "Mobile App,UX Research,UI Design,Case Study",
+    "icons": "/impactify.png",
+    "product": "/casestudy/impactify.png",
+    "images": [
+      "/casestudy/designprocess.svg",
+      "/casestudy/18.svg",
+      "/casestudy/screendetails.png",
+      "/casestudy/allscreen1.png",
+      "/casestudy/allscreen2.png",
+      "/casestudy/impactifyfigma.png"
+    ],
+    "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights.  Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+    "id": "impactify",
+    "href": "https://www.behance.net/gallery/188568755/Impactify-Social-Mobile-App-UIUX-Case-Study",
+    "figma": "https://www.figma.com/file/aR6nMAWBkm29FeiHXmsTr8/Impactify?type=design&node-id=168%3A193&mode=design&t=O8evSEaH7mrtiZCE-1"
+  },
+  {
+    "title": "Booking Mobile App UI",
+    "subtitle": "Mobile App,UI Design,Client Project,Booking App",
+    "icons": "/bookingapp.svg",
+    "product": "/casestudy/bookingappmain.png",
+    "images": [
+      "/casestudy/allbooking1.png",
+      "/casestudy/bookingtimeline.svg",
+      "/casestudy/allbooking2.png",
+      "/casestudy/bookingfigma.png"
+    ],
+
+    "description": "I worked on a project for a US client who needed a one-stop-shop booking app. This app would allow users to seamlessly book hotels, medical appointments, salon visits, and beauty parlor treatments, all within a single platform. I designed the app with a user-friendly interface (UX) to prioritize ease of use, and an aesthetically pleasing design (UI) to make the booking process enjoyable. To ensure smooth operations, the app also features a robust admin dashboard that allows for user management, booking oversight, and control over other app functionalities. This all-in-one solution offers convenience to users and empowers businesses to effectively manage their appointments and bookings.",
+    "id": "booking",
+    "href": "/",
+    "figma": "https://www.figma.com/file/Adv1j9EfxXmF14CzoZxx36/All-Booking--Mobile-App?type=design&node-id=18%3A1380&mode=design&t=JxvN819aPvPlmHcR-1"
+  },
+  {
+    "title": "Travel Mobile App UI Design",
+    "subtitle": "Travel App,UI Design,Mobile App",
+    "icons": "/travel.png",
+    "product": "/casestudy/travelagency.png",
+
+    "images": [
+      "/casestudy/alltravel.svg",
+      "/casestudy/workprocess.svg",
+      "/travel.png"
+    ],
+    "description": "Ditch the bulky travel guides and spreadsheets! This travel mobile app is your pocket-sized companion for planning and experiencing unforgettable adventures.  Search for inspiration with curated recommendations and user-generated content, then craft your dream itinerary by seamlessly booking flights, hotels, and local activities  all within the app.  Navigate with confidence using integrated maps and access in-depth information about must-see destinations. But the journey doesn't stop there!  Connect with locals on community forums to discover hidden gems and unique experiences you won't find in guidebooks.  Keep your trip details, bookings, and travel documents organized in one place",
+    "id": "travel",
+    "href": "/",
+    "figma": "https://www.figma.com/file/aR6nMAWBkm29FeiHXmsTr8/Impactify?type=design&node-id=168%3A193&mode=design&t=O8evSEaH7mrtiZCE-1"
+  },
+
+  {
+    "title": "Foodepi Mobile App UI Kits",
+    "subtitle": "test1,test2,test3,tesr4",
+    "icons": "/foodepi.png",
+    "product": "/casestudy/foodmain.png",
+    "images": [
+      "/casestudy/foodhome.svg",
+      "/casestudy/foodabout.svg",
+      "/casestudy/allfood1.png",
+      "/casestudy/allfood2.png"
+    ],
+    "description": "Ditch the takeout menus and phone calls! This mobile app is your culinary concierge, bringing a world of deliciousness to your fingertips. Craving Indian street food or that perfect slice of pizza? Explore a vast selection of restaurants with mouthwatering menus and user-reviewed dishes.  Filter by cuisine, dietary preferences, or even delivery speed to find your perfect match.  Ordering is a breeze – simply add items to your cart, choose your payment method, and track your meal in real-time with live delivery updates.  The app also remembers your favorites, so reordering your go-to dishes is a snap.  No more waiting on hold or deciphering menus – this app makes satisfying your cravings a convenient and delightful experience.",
+    "id": "food",
+    "href": "https://www.behance.net/gallery/154860839/Food-Restaurant-App-UI-Kit",
+    "figma": "https://www.figma.com/community/file/1181458649402458101/foodepi-mobile-app-templete"
+  }
+]

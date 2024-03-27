@@ -48,7 +48,7 @@ export default function Projects() {
             transition={{ duration: 1 }}
             className="text-center mt-2 max-w-2xl w-full"
           >
-            Our Service Will Provide You Best Quality.
+           These are my all works that I have done
           </motion.h1>
         </div>
         <div className="grid grid-cols-1 items-center mt-28">

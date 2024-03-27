@@ -3,7 +3,7 @@ import "animate.css";
 import { FaBehance } from "react-icons/fa";
 import Image from "next/image";
 import data from "@/app/lib/data.json";
-import { FaDribbble } from "react-icons/fa";
+import { CgFigma } from "react-icons/cg";
 import MainNav from "@/app/MainNav";
 import Shapes from "@/app/components/Shapes";
 import Link from "next/link";
@@ -33,36 +33,52 @@ export default function page({ params }) {
               </h3>
             </div>
 
-            <p className="text-xs mt-5 lg:text-3xl ">{filteredData.subtitle}</p>
+            <p className="text-xs mt-5 lg:text-2xl ">
+              {filteredData.subtitle}
+            </p>
           </div>
         </div>
       </div>
-      <div className="container mx-auto relative flex flex-col px-4 lg:px-28 justify-center items-start">
+      <div className="container mx-auto relative flex flex-col px-4  justify-center items-start">
         <Shapes />
-        <h2 className="text-xl md:text-3xl font-bold  my-10 text-start">Main Goal</h2>
-        <div className="flex items-center gap-6">
-        <Link href={filteredData.href}>
-          <Button color="primary" variant="shadow" size="md">
-           Live on 
-            <FaBehance className="text-xl"/>
-          </Button>
-        </Link>
-        <Link href={filteredData.href}>
-          <Button color="primary" variant="shadow" size="md">
-           View on 
-            <FaDribbble className="text-xl"/>
-          </Button>
-        </Link>
+        <div className="flex items-center gap-6 mt-5">
+          <Link href={filteredData.href}>
+            <Button color="primary" variant="shadow" size="md">
+              Live on
+              <FaBehance className="text-xl" />
+            </Button>
+          </Link>
+          <Link href={filteredData.figma}>
+            <Button color="primary" variant="shadow" size="md">
+              View file
+              <CgFigma className="text-xl" />
+            </Button>
+          </Link>
         </div>
-      
-        <h5 className="text-xl font-medium  my-10">
-          {filteredData.description}
-        </h5>
+
+        <h2 className="text-xl md:text-3xl font-bold  my-10 text-start">
+          Main Goal
+        </h2>
+
+        <h5 className="text-xl leading-loose">{filteredData.description}</h5>
       </div>
-      {filteredData?.images?.map((item) => (
-        <Image className=" w-full" src={item}   loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="ki" />
-      ))}
-      <Footer/>
+      <div className="grid grid-cols-1 xl:grid-cols-2  gap-6 mx-auto container my-10">
+        {filteredData?.images?.map((item, i) => (
+          <Image
+            className=" w-full h-[700px] max-h-[500px] object-cover rounded-2xl"
+            src={item}
+            loading="lazy"
+            objectFit="cover"
+            objectPosition="center"
+            width={1000}
+            height={1000}
+            key={i}
+            alt="ki"
+          />
+        ))}
+      </div>
+
+      <Footer />
     </div>
   );
 }

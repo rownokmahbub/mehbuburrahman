@@ -59,10 +59,20 @@ export default function page({ params }) {
           {filteredData.description}
         </h5>
       </div>
-      <div className="px-5 pb-5">
-      {filteredData?.images?.map((item) => (
-        <Image className=" w-full py-5" src={item}   loading="lazy"  objectFit="cover" objectPosition="center" width={1000} height={1000} alt="iji" />
-      ))}
+      <div className="grid grid-cols-1 xl:grid-cols-2  gap-6 mx-auto container my-10">
+        {filteredData?.images?.map((item, i) => (
+          <Image
+            className=" w-full h-[700px] max-h-[500px] object-cover rounded-2xl"
+            src={item}
+            loading="lazy"
+            objectFit="cover"
+            objectPosition="center"
+            width={1000}
+            height={1000}
+            key={i}
+            alt="ki"
+          />
+        ))}
       </div>
     
       <Footer/>
