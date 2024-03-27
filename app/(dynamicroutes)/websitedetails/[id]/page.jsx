@@ -17,12 +17,12 @@ export default function page({ params }) {
   return (
     <div className="relative bg-slate-50 dark:bg-slate-900/10  lg:py-2">
       <MainNav />
-      <div className=" group relative overflow-hidden">
-        <div className="overflow-hidden rounded-2xl">
+      <div className=" group relative overflow-hidden container mt-10 mx-auto">
+        <div className="overflow-hidden rounded-2xl h-full max-h-[700px]">
           <Image
-            className="w-full h-full transition duration-500 "
+            className="w-full  transition duration-500 "
             src={filteredData?.product}
-            width={1200}
+            width={1900}
             height={1000}
           />
         </div>
@@ -34,7 +34,7 @@ export default function page({ params }) {
               </h3>
             </div>
 
-            <p className="text-xs mt-5 lg:text-3xl ">{filteredData.subtitle}</p>
+            <p className="text-xs mt-5 lg:text-2xl ">{filteredData.subtitle}</p>
           </div>
         </div>
       </div>
