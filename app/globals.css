@@ -47,7 +47,12 @@
         @apply bg-gradient-to-t from-[#f5f6fb] via-[#f0eaf9] to-[#f5f6fb]
     }
   }
-
+  @layer components {
+    .borders{
+        @apply border border-slate-200 dark:border-slate-700
+    }
+  }
+  
   .google-maps {
     position: relative;
     padding-bottom: 80%;
