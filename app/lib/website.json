@@ -3,7 +3,7 @@
       "title": "NFT Dashboard UIUX Design",
       "subtitle": "NFC website, Dashboard",
       "icons": "/casestudy/dashboardnft.png",
-      "product": "/web/exonext.png",
+      "product": "/casestudy/dashboardnft.png",
       "images":[
         "/casestudy/nft1.png","/casestudy/nft2.png","/casestudy/nft3.png","/casestudy/nft4.png"
       ],
@@ -16,11 +16,11 @@
       "title": "TraFly Travel Agency Website",
       "subtitle": "UIUX Design, Brand Design",
       "icons": "/casestudy/travellers.png",
-      "product": "/web/zipcodemy.png",
+      "product": "/casestudy/travellers.png",
       "images":[
         "/casestudy/travel1.png","/casestudy/travel2.png","/casestudy/travel3.png","/casestudy/travel4.png"
       ],
-      "description": "Impactify is a user-friendly mobile app designed for users to donate money, request donations,and engage in social work as volunteers or stipend volunteers. Developed by a team of skilled UI/UX professionals, the app prioritizes simplicity and clear navigation based on user research insights. Users can participate in activities such as tree planting supporting eco-friendly initiatives, disaster relief, and more. Donors can contribute to charitable causes spanning health,education, poverty alleviation, and animal welfare. Impactify aims to provide a comprehensive platform for individuals to participate in social impact activities and support diverse causes.",
+      "description": "Ditch the bulky travel guides and spreadsheets! This travel mobile app is your pocket-sized companion for planning and experiencing unforgettable adventures.  Search for inspiration with curated recommendations and user-generated content, then craft your dream itinerary by seamlessly booking flights, hotels, and local activities – all within the app.  Navigate with confidence using integrated maps and access in-depth information about must-see destinations. But the journey doesn't stop there!  Connect with locals on community forums to discover hidden gems and unique experiences you won't find in guidebooks.  Keep your trip details, bookings, and travel documents organized in one place, and don't worry about spotty internet – access essential information and maps even offline. This app empowers you to explore the world with confidence, transforming every trip into a smooth and unforgettable experience.",
       "id": "zipcodemy",
       "href": "/",
       "figma": "/"
@@ -29,7 +29,7 @@
       "title": "Flight Booking Dashboard UIUX Design",
       "subtitle": "NFC website, Dashboard",
       "icons": "/casestudy/dashboardota.png",
-      "product": "/web/exonext.png",
+      "product": "/casestudy/dashboardota.png",
       "images":[
         "/casestudy/ota1.png","/casestudy/ota2.png","/casestudy/ota3.png","/casestudy/ota4.png"
       ],
